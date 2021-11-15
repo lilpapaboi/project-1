@@ -23,10 +23,10 @@
     margin-right: 15%;
 }
 
-.bigbox {
+.container-1 {
     background-color: #1F2937;
     margin-right: auto;
-    text-align: right;
+    display: flex;
 }
 
 img {
@@ -35,11 +35,11 @@ img {
     text-align: right;
 }
 
-.bigboi {
+.container-2 {
     font-weight: extra-bold;
     font-size: 48px;
     background-color: #1F2937;
     color: #f9faf8;
-    margin: 0;
+    
 }
 
