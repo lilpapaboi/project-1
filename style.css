@@ -4,7 +4,8 @@
 
 .header {
     display: flex;
-    margin: auto;
+    margin-left: auto;
+    padding-left: 15%;
 }
 
 
@@ -21,6 +22,7 @@
     background-color: #1F2937;
     justify-content: flex-end;
     margin-right: 15%;
+    column-gap: normal;
 }
 
 .container-1 {
@@ -40,6 +42,37 @@ img {
     font-size: 48px;
     background-color: #1F2937;
     color: #f9faf8;
+    column-gap: 2ex;
     
 }
 
+.center-title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container-3 {
+    display: flex;
+    columns: auto;
+    justify-content: space-around;
+}
+
+.container-4  {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.third-p {
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding-top: 5%;
+    padding-bottom: 70px;
+    padding-left: 25%;
+    padding-right: 25%;
+    white-space: pre-line;
+}
