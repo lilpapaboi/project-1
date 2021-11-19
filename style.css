@@ -1,5 +1,5 @@
-* {
-    margin: 0%;
+* { 
+    margin: auto;
 }
 
 .header {
@@ -31,11 +31,18 @@
     display: flex;
 }
 
-img {
+.main-pic {
+    width: 25%;
+    height: auto;
+
+}
+
+
+/*   img {   removed this and added classes to both sections of pictures 
     width: 200px;
     height: 200px;
     text-align: right;
-}
+} */
 
 .container-2 {
     font-weight: extra-bold;
@@ -46,16 +53,27 @@ img {
     
 }
 
+
 .center-title {
     align-items: center;
     justify-content: center;
     display: flex;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
 }
 
 .container-3 {
     display: flex;
     columns: auto;
-    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+.cubes .small-four {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
 }
 
 .container-4  {
@@ -74,5 +92,73 @@ img {
     padding-bottom: 70px;
     padding-left: 25%;
     padding-right: 25%;
-    white-space: pre-line;
 }
+
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+div.cubes:nth-child(1) {
+    margin-right: 0px;
+    padding-right: 5%;
+  }
+  
+  /* Element | http://127.0.0.1:5500/index.html */
+  
+  div.cubes:nth-child(2) {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 5%;
+  }
+  
+  /* Element | http://127.0.0.1:5500/index.html */
+  
+  div.cubes:nth-child(3) {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 5%;
+  }
+  
+  /* Element | http://127.0.0.1:5500/index.html */
+  
+  div.cubes:nth-child(4) {
+    margin-left: 0px;
+  }
+  
+  /* Element | http://127.0.0.1:5500/index.html */
+  
+  .container-3 {
+    height: 400px;
+  }
+  
+  /* Element | http://127.0.0.1:5500/index.html */
+  
+  .center-title {
+    height: 50px;
+  }
+  
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+.container-2 {
+    padding-right: 0px;
+    width: 700px;
+  }
+  
+  /* Element | http://127.0.0.1:5500/index.html */
+  
+  .main-pic {
+    width: 700px;
+    height: 348px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  
+  /* Element | http://127.0.0.1:5500/index.html */
+  
+  .container-1 {
+    height: 448px;
+  }
+  
