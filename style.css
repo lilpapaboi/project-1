@@ -162,3 +162,41 @@ div.cubes:nth-child(1) {
     height: 448px;
   }
   
+  .container-5 {
+    display: flex;
+    columns: auto;
+  }
+
+  .blue-container {
+    background-color: #3882f6;
+    display: flex;
+    columns: auto;
+  }
+
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+.container-5 {
+  height: 200px;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+.blue-container {
+  height: 100px;
+  width: 1200px;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+.five-1 {
+  width: 400px;
+  margin-right: 0px;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+.five-3 {
+  /* margin-left: 0px; */
+  margin-left: 5%;
+}
