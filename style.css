@@ -2,6 +2,10 @@
     margin: auto;
 }
 
+html {
+  height: 100%;
+}
+
 .header {
     display: flex;
     margin-left: auto;
@@ -14,6 +18,8 @@
     font-size: 24PX;
     color: #f9faf8;
     margin-bottom: 0;
+    height: 5px;
+    width: 5px;
 }
 
 .links {
@@ -37,12 +43,6 @@
 
 }
 
-
-/*   img {   removed this and added classes to both sections of pictures 
-    width: 200px;
-    height: 200px;
-    text-align: right;
-} */
 
 .container-2 {
     font-weight: extra-bold;
