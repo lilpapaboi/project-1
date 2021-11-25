@@ -37,16 +37,7 @@ ul {
 
 }
 
-/*.header-logo {
-    display: flex;
-    margin-left: 0%;
-    padding-left: 15%;
-    height: 50px;
-    width: 145px;
-} */
-
-
-#header-links {
+/*#header-links {
     font-size: 8px;
     color: #e5e7eb;
     background-color: #1F2937;
@@ -59,17 +50,17 @@ ul {
     width: 500px;
     height: 400px;
     padding-top: 5%
-    /*width: 700px;
+    width: 700px;
     height: 348px; 
     padding-bottom: 0px;
     padding-top: 0px; 
     margin-top: 2%;
     margin-bottom: 0px;
-    margin-left: 0px; */
+    margin-left: 0px;
 }
 
 
-/*.container-2 {
+.container-2 {
     font-weight: extra-bold;
     font-size: 48px;
     background-color: #1F2937;
