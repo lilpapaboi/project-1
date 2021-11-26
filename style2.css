@@ -152,7 +152,7 @@ ul {
     columns: auto;
     margin: auto;
     align-items: center;
-    height: 55%;
+    height: 45%;
     background-color: #e5e7eb;
 }
 
@@ -173,9 +173,58 @@ ul {
 
 
 .container-4  {
-    background-color: #e5e7eb;
     display: flex;
     justify-content: center;
-    margin: auto;
+    height: 33%;
 }
 
+.sub-container-4 {
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 25px;
+  height: 150px;
+  width: 75%;
+  margin: auto;
+}
+
+.spam-text {
+  justify-content: left;
+  padding: 50px;
+  color: #e5e7eb;
+  font-weight: bold;
+  font-size: large;
+  margin-left: 10%;
+
+}
+
+#spam-text-2 {
+  margin: 0%;
+  font-size: small;
+}
+
+
+
+
+.button-box {
+  height: 50px;
+  width: 100px;
+  margin-top: 50px;
+  margin-right: 5%;
+  margin-left: 10%;
+  color: #f9faf8;
+  background-color: #3882F6;
+  border-radius: 25px;
+  border-color: white;
+}
+
+.the-foot {
+  background-color: #1F2937;
+  height: 10%;
+}
+
+#foot {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  padding-top: 2%;
+}
