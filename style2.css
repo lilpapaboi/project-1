@@ -1,8 +1,8 @@
-*,
+/*,
 *::after,
 *::before {
   box-sizing: border-box;
-} 
+} */
 
 html {
   height: 100%;
@@ -25,28 +25,72 @@ ul {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    height: 25%;
+    height: 55%;
 }
 
 .sub-container-1 {
     display: flex;
     color: #f9faf8;
-    width: 50%;
     flex-direction: column;
+    display: flex;
+    max-width: 1440px;
     flex: 1;
+    padding: 1rem 14rem 7rem;
+    gap: 7rem;
 
 }
 
-/*#header-links {
-    font-size: 8px;
-    color: #e5e7eb;
-    background-color: #1F2937;
-    justify-content: flex-end;
-    margin-right: 15%;
-    flex-direction: column;
+.topbar {
+  min-width: 0;
+  display: flex;
+  height: 70px;
 }
 
-#main-pic {
+#header-logo {
+  height: 70px;
+  width: 70px;
+}
+
+#header-links {
+  font-size: 9px;
+  color: #e5e7eb;
+  background-color: #1F2937;
+  display: flex;
+  flex: 1;
+  column-gap: 5px;
+  justify-content: flex-end;
+}
+
+.awesome-text {
+  display: flex;
+  flex: 1;
+  
+}
+
+#large-text {
+  display: flex;
+  font-size: 48px;
+}
+
+#small-text {
+  font-size: 12px;
+}
+
+#sub-1-signup {
+  display: flex;
+  height: 40px;
+  width: auto;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  display: flex;
+} 
+
+
+
+/* #main-pic {
     width: 500px;
     height: 400px;
     padding-top: 5%
@@ -79,7 +123,7 @@ ul {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
-}
+} 
 
 .container-3 {
     display: flex;
@@ -112,90 +156,3 @@ ul {
     padding-right: 25%;
 }
 
-
-
-/*div.cubes:nth-child(1) {
-    margin-right: 0px;
-    padding-right: 5%;
-  }
-  
-
-  
-  div.cubes:nth-child(2) {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-right: 5%;
-  }
-  
-
-  
-  div.cubes:nth-child(3) {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-right: 5%;
-  }
-  
-
-  
-  div.cubes:nth-child(4) {
-    margin-left: 0px;
-  }
-  
-
-  
-  .container-3 {
-    height: 400px;
-  }
-  
-
-  
-  .center-title {
-    height: 50px;
-  }
-  
-
-  .main-pic {
-    
-  }
-  
-
-  
-  .container-1 {
-    height: 448px;
-  }
-  
-  .container-5 {
-    display: flex;
-    columns: auto;
-  }
-
-  .blue-container {
-    background-color: #3882f6;
-    display: flex;
-    columns: auto;
-  }
-
-
-
-.container-5 {
-  height: 200px;
-}
-
-
-.blue-container {
-  height: 100px;
-  width: 1200px;
-}
-
-
-.five-1 {
-  width: 400px;
-  margin-right: 0px;
-}
-
-
-.five-3 {
-  /* margin-left: 0px; 
-  margin-left: 5%;
-}
- */
