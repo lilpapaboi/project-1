@@ -52,7 +52,7 @@ ul {
 }
 
 #header-links {
-  font-size: 9px;
+  font-size: 12px;
   color: #e5e7eb;
   background-color: #1F2937;
   display: flex;
@@ -67,19 +67,35 @@ ul {
   
 }
 
+.signup-box {
+  display: flex;
+  flex-direction: column;
+}
+
 #large-text {
   display: flex;
   font-size: 48px;
+  height: 110px;
 }
 
 #small-text {
-  font-size: 12px;
+  font-size: 16px;
+  margin: 0%;
+  width: 500px;
+  flex: 1;
+  justify-content: right;
 }
 
 #sub-1-signup {
   display: flex;
-  height: 40px;
-  width: auto;
+  height: 30px;
+  width: 70px;
+  justify-content: center;
+  font-weight: 500;
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding-top: 2px;
+  margin-top: 2%;
 }
 
 img {
@@ -90,31 +106,18 @@ img {
 
 
 
-/* #main-pic {
-    width: 500px;
-    height: 400px;
-    padding-top: 5%
+#main-pic {
+    object-fit: cover;
     width: 700px;
-    height: 348px; 
-    padding-bottom: 0px;
-    padding-top: 0px; 
-    margin-top: 2%;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: 200px;
 }
-
 
 .container-2 {
-    font-weight: extra-bold;
-    font-size: 48px;
-    background-color: #1F2937;
-    color: #f9faf8;
-    column-gap: 2ex;
-    padding-right: 0px;
-    width: 700px;
-    
+  display: flex;
+
 }
 
+/*
 
 .center-title {
     align-items: center;
