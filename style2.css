@@ -49,6 +49,7 @@ ul {
 #header-logo {
   height: 70px;
   width: 70px;
+  border-radius: 15px;
 }
 
 #header-links {
@@ -98,7 +99,7 @@ ul {
   margin-top: 2%;
 }
 
-img {
+ img {
   height: 200px;
   width: auto;
   display: flex;
@@ -114,10 +115,14 @@ img {
 
 .container-2 {
   display: flex;
-
+  justify-content: center;
+  flex-direction: column;
+  height: 55%;
 }
 
-/*
+.sub-container-2 {
+  height: 100%;
+}
 
 .center-title {
     align-items: center;
@@ -128,17 +133,24 @@ img {
     color: #1F2937;
 } 
 
-.container-3 {
+.cubes {
+  display: flex;
+  justify-content: center;
+  
+}
+
+/*.container-3 {
     display: flex;
     columns: auto;
     margin: auto;
     align-items: center;
-}
+} */
 
-.cubes .small-four {
+.small-four {
     width: 200px;
     height: 200px;
     border-radius: 25px;
+    display: flex;
 }
 
 .container-4  {
